@@ -42,6 +42,28 @@ a{
     display: inline-block;
 }
 
+/* Bootstrap */
+
+.cover{
+    height: 300px;
+    color: #FFFFFF;
+    background-image: url(https://www.shambhala.com/wp/wp-content/uploads/2021/11/heart-sutra-shutterstock_424330522-1-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0, 0, 0,0.80);
+    background-blend-mode: darken;
+}
+
+.card{
+    border: 0 !important;
+    font-family: 'Roboto Serif', sans-serif;
+    color: #000000;
+}
+
+.etiquetas{
+    margin: 0 130px;
+}
+
 /* diseño de index */
 
 header{
@@ -76,15 +98,6 @@ ul a:hover{
     object-fit: cover;
     height: 550px;
     width: 100%;
-}
-.cover{
-    height: 300px;
-    color: #FFFFFF;
-    background-image: url(https://www.shambhala.com/wp/wp-content/uploads/2021/11/heart-sutra-shutterstock_424330522-1-scaled.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color:rgba(0, 0, 0,0.80);
-    background-blend-mode: darken;
 }
 
 .main__titulo{
