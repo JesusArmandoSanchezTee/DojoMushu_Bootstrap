@@ -1,0 +1,329 @@
+
+/*  Estilo globales  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+.flex_row{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* diseño de index */
+
+header{
+    background-color: black;
+    height: 140px;
+}
+
+header .navbar{
+    font-size: 25px;
+    margin: 0 100px;
+    font-family: 'Allan', cursive;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu{
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+
+.logo img{
+    flex-basis: 30%;
+    height: auto;
+    width: 300px;
+}
+
+ul a:hover{
+    color: red;
+}
+
+.main__img1{
+    object-fit: cover;
+    height: 550px;
+    width: 100%;
+}
+.cover{
+    height: 300px;
+    color: #FFFFFF;
+    background-image: url(https://www.shambhala.com/wp/wp-content/uploads/2021/11/heart-sutra-shutterstock_424330522-1-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0, 0, 0,0.80);
+    background-blend-mode: darken;
+}
+
+.main__titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    color: #FF1E27;
+}
+
+.main_descripcion{
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+#footer{
+    font-family: 'Roboto Serif', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    column-gap: 270px;
+    padding: 50px 0;
+}
+
+.main__razon{
+    font-family: 'Rancho', cursive;
+    color: #FF1E27;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 110px;
+}
+.main__descripcion{
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+
+aside h2{
+    clear: both;
+    text-align: center;
+    font-family: 'Allan', cursive;
+    color: #FF1E27;
+    font-size: 70px;
+}
+
+.ubicacion{
+    margin: 0px 200px;
+    padding-right: 300px;
+    height: 450px;
+    background-color: #E3E1E1;
+}
+
+.aside__contactos{
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #000000;
+    position: relative;
+    top: -350px;
+    padding-left: 850px;
+}
+
+/* diseño de judo */
+
+.main__diseño-judo{
+    color: #000000;
+}
+
+.main__titulo-judo{
+    padding-top: 110px;
+    color: #FF1E27;
+    font-family: 'BASARA', sans-serif;
+    font-size: 80px;
+    padding-right: 120px;
+    text-align: right;
+}
+
+.main__icono-judo{ 
+    padding: 1px 40px;
+    height: auto;
+    float: left;
+    width: 450px;
+}
+
+.main__frase-judo{
+    text-align: right;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 23px;
+    padding: 0px 60px ;
+}
+
+.main__explicacion{
+    clear: both;
+}
+
+.main__imagen-judo{
+    width: 400px;
+    margin: 100px 50px;
+    padding-left: 0px;
+    float: right;
+}
+
+.main__informacion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+    font-size: 25px;
+    position: relative;
+    padding-left: 100px;
+    top: 70px;
+}
+
+.main__informacion3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+    font-size: 25px;
+    position: relative;
+    padding-left: 100px;
+    top: 170px;
+    display: block;
+    margin-bottom: 200px;
+}
+
+/* diseño de taekwondo*/
+
+.main__diseño-taekwondo{
+    color: #000000;
+}
+
+.main__titulo-taekwondo{
+    padding-top: 110px;
+    color: #FF1E27;
+    font-family: 'BASARA', sans-serif;
+    font-size: 80px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.main__icono-taekwondo{ 
+    padding: 1px 40px;
+    height: auto;
+    float: left;
+    width: 450px;
+}
+
+.main__frase-taekwondo{
+    text-align: right;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 23px;
+    padding: 0px 60px ;
+}
+
+.main__explicacion{
+    clear: both;
+}
+
+.main__informacion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+    font-size: 25px;
+    position: relative;
+    padding-left: 100px;
+    top: 100px;
+}
+
+.main__informacion2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+    font-size: 25px;
+    position: relative;
+    padding-left: 100px;
+    top: 180px;
+}
+
+
+.main__imagen-taekwondo{
+    width: 400px;
+    margin: 50px 50px;
+    padding-left: 0px;
+    float: right;
+}
+
+
+
+
+
+/* Estilos de nosotros */
+
+.main__quienes-somos{
+    font-family: 'Allan', cursive;   
+    color:#FF1E27;
+}
+
+.main__titulo-nosotros{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main__informacion-nosotros{
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding: 25px 60px;
+    margin: 10px 250px;
+}
+
+/* Estilos de formulario */
+.main__formulario{
+    color: #000000;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
