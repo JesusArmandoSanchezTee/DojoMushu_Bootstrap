@@ -64,6 +64,75 @@ a{
     margin: 0 130px;
 }
 
+.collage{
+    margin: 0 130px;
+}
+
+.product-stripe, .slider{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stripe-container, .slider-container{
+    display: flex;
+}
+
+.slider{
+    overflow-x: hidden;
+}
+
+.slider-container{
+    transform: translateX(0);
+    animation: slider 7s infinite ;
+}
+
+.image-container{
+    width: 100%;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+@keyframes slider{
+    0%{
+        transform: translateX(0);
+    }
+
+    20%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(-100%);
+    }
+
+    45%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-200%);
+    }
+
+    70%{
+        transform: translateX(-200%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.card-title{
+    min-height: 3rem;
+}
+
+.product-stripe{
+    overflow: scroll;
+}
+
 /* diseño de index */
 
 header{
@@ -181,6 +250,7 @@ aside h2{
     padding-top: 110px;
     color: #FF1E27;
     font-family: 'BASARA', sans-serif;
+    font-weight:bold;
     font-size: 80px;
     padding-right: 120px;
     text-align: right;
@@ -194,8 +264,9 @@ aside h2{
 }
 
 .main__frase-judo{
+    font-family: 'Roboto Serif', sans-serif !important;
     text-align: right;
-    font-family: 'Roboto Serif', sans-serif;
+    font-weight:bolder;
     font-size: 23px;
     padding: 0px 60px ;
 }
@@ -204,22 +275,13 @@ aside h2{
     clear: both;
 }
 
-.main__imagen-judo{
-    width: 400px;
-    margin: 100px 50px;
-    padding-left: 0px;
-    float: right;
-}
-
 .main__informacion{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #000000;
     text-align: justify;
     font-size: 25px;
-    position: relative;
-    padding-left: 100px;
-    top: 70px;
+    padding: 0 100px;
 }
 
 .main__informacion3{
@@ -229,10 +291,9 @@ aside h2{
     text-align: justify;
     font-size: 25px;
     position: relative;
-    padding-left: 100px;
-    top: 170px;
+    padding: 100px;
+    top: 50px;
     display: block;
-    margin-bottom: 200px;
 }
 
 /* diseño de taekwondo*/
